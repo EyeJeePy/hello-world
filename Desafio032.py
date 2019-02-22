@@ -1,9 +1,0 @@
-"""Faça um programa que leia um ano qualquer e mostre se ele é bissexto."""
-ano = int(input('Ano: '))
-d = ano % 4
-
-if d == 0:
-    print('O ano {} é bissexto.'.format(ano))
-
-else:
-    print('O ano {} não é bissexto.'.format(ano))
