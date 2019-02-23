@@ -1,7 +1,7 @@
 """Escreva um programa que leia um número n inteiro qualquer e mostre na tela os n primeiros elementos de uma Sequência
 de Fibonacci.
 Exemplo: 0 → 1 → 1 → 2 → 3 → 5 → 8"""
-# F(x) = F(x-1) + F(x-2)
+# F(f) = F(f-1) + F(f-2)
 c = 0
 t1 = 0
 t2 = 1
