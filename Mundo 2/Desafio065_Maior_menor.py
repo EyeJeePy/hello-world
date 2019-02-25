@@ -8,7 +8,7 @@ opt = 'Ss'
 med = 0
 soma = 0
 while opt in 'Ss':
-    num = int(input('Insira um número: '))
+    num = int(input('Insira um número inteiro: '))
     count += 1
     soma += num
     if count == 1:
@@ -21,4 +21,7 @@ while opt in 'Ss':
             menor = num
     opt = str(input('Deseja continuar? [S/N] ')).upper().strip()[0]
 med = soma / count
-print('{}, {}, {}'.format(med, maior, menor))
+print('Valores inseridos: {}\n'
+      'Maior valor: {}\n'
+      'Menor valor: {}\n'
+      'Média: {}'.format(count, maior, menor, med))
