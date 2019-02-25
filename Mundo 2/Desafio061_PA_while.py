@@ -10,4 +10,4 @@ while c < ter:
     c += 1
     num += raz
     print('{}'.format(num), ' → ' if c < ter else '', end='')
-print('\n\n\033[7m =================== FIM =================== \033[0m')
+print('\n\n\033[7m', '=' * 19, ' FIM ', '=' *19, '\33[0m')
