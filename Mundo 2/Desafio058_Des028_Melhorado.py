@@ -3,7 +3,7 @@ tentar adivinhar até acertar, mostrando no final quantos palpites foram necess�
 from random import randint
 num = randint(0, 10)
 count = 1
-print('#'*9 JOGO DA ADIVINHAÇÃO '#'*9\n')
+print('#'*9, 'JOGO DA ADIVINHAÇÃO', '#'*9, '\n')
 print('Tente adivinhar um número entre 0 e 10')
 print('\033[7m+{}+\033[0m'.format(num))
 usrnum = int(input('Qual é o número? '))
